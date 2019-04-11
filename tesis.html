@@ -1,0 +1,452 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]><html dir="ltr" lang="en-US" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html dir="ltr" lang="en-US" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html dir="ltr" lang="en-US" class="lt-ie9"><![endif]-->
+<!--[if IE 9]><html dir="ltr" lang="en-US"  class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--><html dir="ltr" lang="en-US" class="gt-ie9 non-ie"> <!--<![endif]-->
+    <head>
+    <!-- Meta Tags -->
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <meta http-equiv="Last-Modified" content="0">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="expires" content="0">
+        <meta charset="UTF-8">
+        <meta name="description" content="FCA MGTIC">
+        <meta name="author" content="MGTIC">
+        <meta http-equiv="imagetoolbar" content="no" />
+
+  <!-- Mobile -->
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ <!-- Page Title -->
+        <link rel="icon" href="assets/images/favicon.png" type="image/png">        
+        <title>UABC MGTIC | Tutorías</title>
+        
+        <link rel="shortcut icon" href="#" />
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+        
+        <!-- Bootstrap core CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+        
+        <!-- CSS Stylesheets -->
+        <link href="assets/css/superfish.css" rel="stylesheet" />
+        <link href="assets/css/flexslider.css" rel="stylesheet" />
+        <link href="assets/extends/rs-plugin/css/settings.css" rel="stylesheet">
+        <link href="assets/css/global.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet" />
+        <link href="assets/css/table.css" rel="stylesheet" />
+        
+        <!-- JS Header -->
+        <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+<body id="skrollr-body" class="full-width onepage" data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
+    <!-- .content-wrapper -->
+    <div id="top" class="content-wrapper">
+        <!-- #header -->
+        <header id="header" class="navbar-wrapper">
+        <!-- #navbar-top -->
+<!--            
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class ="conacyt">
+                        <a href="#" class="logo-wrap"><img src="content/imagenes/conacyt.png" alt="logo.png" /></a>
+                        </div>
+                    </div>
+                </div> -->
+
+  <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+  <script languaje="javascript" type="text/javascript" src="registro/funciones.js"></script>
+  <script type="text/javascript">
+    function Validar(nombre,apellido,correo,pass,telefono,estado,universidad,nivel,asistente,ciudad,pais)
+    {
+      e='';
+      if (nombre=='')
+        {e=e+"\nNo indicó el nombre";}
+      if (apellido=='')
+        {e=e+"\nNo indicó el apellido";}
+      if (universidad=='')
+        {e=e+"\nNo indico la Universidad de procedencia";}
+     if (telefono=='')
+        {e=e+"\nNo indico numero de telefono";}
+      if (nivel=='')
+        {e=e+"\nNo indico Nivel Educativo";}
+      if (asistente=='')
+        {e=e+"\nNo selecciono el tipo de asistente";}
+      if (estado=='0')
+        {e=e+"\nNo selecciono el estado de procedencia ";}
+      if (ciudad=='')
+        {e=e+"\nNo indicó la ciudad de procedencia";}
+        if (pais=='')
+        {e=e+"\nNo indicó el país de procedencia";}
+       if (correo=='')
+        {e=e+"\nNo indico el correo";}  
+      if (pass=='')
+        {e=e+"\nNo indico contraseña";}  
+        expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if ( !expr.test(correo) )
+          {e=e+"\n Error en el correo";}
+        if (e=='')
+        {
+          document.formulario.submit();
+        }
+        else
+        {alert("Error - Por favor cheque lo siguiente:\n"+e);}
+    }
+  </script>
+</head>
+ <div id="navbar-top" class="navbar-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="inline-block">
+                                <a href="#" class="logo-wrap"><img src="content/imagenes/logo-uabc_70.png" alt="logo.png" /></a>
+                                <a href="http://docsposgrado.mxl.uabc.mx/" class="conacyt"><img src="content/imagenes/conacyt_110.png" alt="logo.png" /></a>
+                                <div class="tagline">
+                                    <h2>Universidad Autónoma de Baja California</h2>
+                                    <h6 class="text-primary">Maestría en Gestión de las Tecnologías de Información y de la Comunicación</h6>
+                                </div>
+                            
+                            </div>
+                                
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /#navbar-top -->
+            
+            <!-- #navbar-menu -->
+            <div id="navbar-menu" class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header"></div>
+                    <!-- nav -->
+                    <nav class="navbar-collapse collapse" role="navigation">
+                        <!-- #nav -->
+                        <ul class="nav navbar-nav sf-menu">
+                            <li >
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <!--<li>
+                                <a href="#egreso">Perfil de egreso</a>
+                                <ul>
+                                    <li>
+                                        <a href="#!blog.html@load-blog-area">Blog Standard</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!blog-audio.html@load-blog-area">Blog Audio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!blog-photo.html@load-blog-area">Blog Photo</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!blog-quote.html@load-blog-area">Blog Quote</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!blog-video.html@load-blog-area">Blog Video</a>
+                                    </li>
+                                </ul>
+                            </li>-->
+                            <li>
+                                <a href="#top">Programa</a>
+                                    <ul>
+                                    <li>
+                                            <a href="acerca del programa.html">Acerca del Programa</a>
+                                        </li>
+                                        <li>
+                                            <a href="planestudios.html">Plan de Estudios</a>
+                                        </li>
+                                        <li>
+                                            <a href="ingreso.html">Perfil Ingreso</a>
+                                        </li>
+                                        <li>
+                                            <a href="egreso.html">Perfil Egreso</a>
+                                        </li>
+                                        <li>
+                                            <a href="mapacurricular.html">Mapa Curricular</a>
+                                        </li>
+                                        <li>
+                                            <a href="lineas_conocimiento.html"> Lineas de Generación del Conocimiento</a>
+                                        </li>
+                                        <li>
+                                            <a href="nucleo.html">Núcleo Académico Básico</a>
+                                        </li>
+                                        <li>
+                                            <a href="objetivos.html">Objetivos</a>
+                                        </li>
+                                    </ul>
+                            </li>
+                
+                                <!--<ul>
+                                    <li>
+                                        <a href="#!alumnos.seleccion@load-blog-area">Proceso de Seleccion</a>
+
+                                    </li>
+
+                                </ul>-->
+         
+                            <li>
+                                <a href="#procesos">Procesos</a>
+                                <ul>
+
+                                    <li>
+                                        <a href="seleccion.html">Selección</a>
+                                    </li>
+                                    <li>
+                                        <a href="tutorias.html">Tutorías</a>
+                                    </li>
+                                    <li>
+                                        <a href="vinculacion.html">Vinculación</a>
+                                    </li>
+ 
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="index.html#contact">Directorio</a>
+                            </li>
+                            
+                             <li>
+                                <a href="#convocatoria">Convocatoria</a>
+                                 
+
+                                <ul>
+
+                                    <li>
+                                        <a href="convocatoria.html">Convocatoria 2019</a>
+                                    </li>
+                                    <li>
+                                        <a href="Resultado.html">Resultados</a>
+                                    </li>
+                                     
+                                </ul>
+ 
+
+
+                            </li> 
+                                <a href="#estudiantes.html">Estudiantes</a>
+                                <ul>
+                                    <li>
+                                   
+                                         <a href="Manual.html"> <a href="content/pdf/Manual del Estudiante 2016-2.pdf" title="Manual" target="_self">Manual</a>
+                                        <li>
+                                        <a href="Estancias.html">Estancias</a>
+                                        </li>
+                                        <li>
+                                        <a href="">Formatos</a>
+
+                                          <ul>
+
+                                            <li>
+
+                                            <a href="content/documentos/GuiaExamen MGTIC ver 8.1.pdf"> Gu&iacutea examen </a>
+
+                                            </li>
+
+                                            <li>
+
+                                            <a href="content/documentos/MGTIC Solicitud de Ingreso 2018-1.docx"> Solicitud de ingreso 2017-2</a>
+
+                                            </li>
+
+                                            <li>
+
+                                            <a href="content/documentos/Protocolo MGTIC.docx"> Protocolo MGTIC</a>
+                                            </li>
+
+                                                
+                                          </ul>                                             
+
+                                        </li>
+                                        </li>
+                                    </li>                          
+
+                        </ul>
+                        <li>
+                                    
+                                </li>
+                            </li> 
+                        <!-- /#nav -->
+                    </nav>
+                    <!-- /nav -->
+                                    
+                </div>
+            </div>
+            <!-- /#navbar-menu -->
+    
+  <!-- INICIA DIV CONTAINER -->
+<div id="container">
+      <h1 align="center"><strong>REGISTRO</strong> </h1>
+
+      <!--termina inicio de sesion-->
+   <center> <div id="newsletter">
+     <p>Inicio de sesi&oacute;n:</p>
+      <form action="registro/control.php" method="post">
+        <fieldset>
+          <input type="text" value="Correo&hellip;"  onfocus="this.value=(this.value=='Correo&hellip;')? '' : this.value ;" name="usuario" />
+          <input type="password" value="Contraseña&hellip;"  onfocus="this.value=(this.value=='Contraseña&hellip;')? '' : this.value ;" name="pass" />
+          <input type="submit" name="news_go" id="news_go" value="Ingresar" />
+        </fieldset>
+      </form>
+    </div></center>
+    <!--termina inicio de sesion-->
+     
+      <form name="formulario" action="guardar.php" method="post">
+        <table summary="summary here" cellpadding="0" cellspacing="0">
+          <thead>
+            <tr>
+              <th colspan="3" align="left"><strong>Datos del Participante</strong></th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td width="17%"><strong>Nombre(s):</strong></td>
+              <td width="83%"><input type="text" size="80" name="nombre" /></td>
+            </tr>
+
+            <tr>
+              <td width="17%" height="50"><strong>Apellidos:</strong><div class="fl_center">
+               <center><p>Iniciar por Apellido Paterno</div></p></center> 
+              <td width="83%"><input type="text" size="80" name="apellido" /></td><br />
+            </tr> 
+
+            <tr>
+              <td width="17%"><strong>Correo :</strong></td>
+              <td width="83%"><input type="text" size="70" name="correo" /></td>
+            </tr>
+
+            <tr>
+              <td width="17%"><strong>Contraseña:</strong></td>
+              <td width="83%"><input type="text" size="70" name="pass" /></td>
+            </tr>
+
+             <tr>
+              <td width="17%"><strong>Nombre de la Tesis:</strong></td>
+              <td width="83%"><input type="text" size="70" name="telefono" /></td>
+            </tr>
+
+              <tr>
+              <td width="17%"><strong>Tipo de Tesis:</strong></td>
+              <td width="83%"><select name="nivel">
+                <option selected="selected" value="0">--</option>
+                <option>Desarrollo Tecnologico</option>
+                <option>Plan de Negocios</option>
+                </select></td>
+            </tr>
+
+            <tr>
+              <td width="17%"><strong>Año de Trabajo:</strong></td>
+              <td width="83%"><input type="text" size="40" name="ciudad" /></td>
+            </tr>
+
+            <tr>
+              <td width="17%"><strong>Director:</strong></td>
+              <td width="83%"><input type="text" size="40" name="ciudad" /></td>
+            </tr>
+
+            <tr>
+              <td width="17%"><strong>Tematica:</strong> </td>
+              <td width="83%"><select name="estado">
+                <option selected="selected" value="0">--</option>
+                <option>Computo en la Nube</option>
+                <option>Redes</option>
+                </select></td>
+            </tr>
+            
+          </tbody>
+        </table>
+        
+        
+        <table cellpadding="0" cellspacing="0" border="0" width="100%"> 
+          <thead>
+           
+          </thead>
+         
+          
+        </table>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr>
+            <td colspan="3" align="center">
+            <input type="button" class="more" value="Registrar" onClick="Validar(nombre.value,apellido.value,correo.value,pass.value,telefono.value,universidad.value,nivel.value,estado.value,asistente.value,ciudad.value,pais.value)" />
+            </td>
+          </tr>
+        </table>
+      </form> 
+   <footer id="footer" class="footer">
+
+            <!-- /.footer-top -->
+            <div class="footer-top footer-panel has-arrow">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Enlaces</h1>
+                        </div>
+                    </div>
+<!--                     <div class="row">
+                        <div class="col-md-6">
+                            <p>.</p>
+                        </div>
+                        <div class="col-md-6 text-left">
+                            <div>
+                                
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            
+            <!-- .footer-bottom -->
+            <div class="footer-bottom container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="social-wrap text-center">
+             
+                            <a href="#" title="Google plus" data-toggle="tooltip" data-tip-bgcolor="#585858" class="social-icon google-icon img-circle tip-center"></a>
+                            <a href="#" title="Facebook" data-toggle="tooltip" data-tip-bgcolor="#585858" class="social-icon facebook-icon img-circle tip-center"></a>
+                            
+                            <a href="#" title="Twitter" data-toggle="tooltip" data-tip-bgcolor="#585858" class="social-icon twitter-icon img-circle tip-center"></a>
+                            
+                            <a href="#" title="Youtube" data-toggle="tooltip" data-tip-bgcolor="#585858" class="social-icon youtube-icon img-circle tip-center"></a>
+
+                            <a href="#" title="Mail" data-toggle="tooltip" data-tip-bgcolor="#585858" class="social-icon mail-icon img-circle tip-center"></a>
+                        </p>
+                        <div class="copyright-wrap">
+                            Copyright 2017 |  Universidad Autónoma de Baja California  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .footer-bottom -->
+        </footer>
+    </div>
+    <!-- /.content-wrapper -->
+    
+    <div id="back-to-top">
+        <a href="#header" class="btn-up"></a>
+    </div>
+    
+    <!-- Theme core JavaScript
+    ================================================== -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.fitvids.js"></script>
+    <script src="assets/js/superfish.min.js"></script>
+    <script src="assets/js/jquery.isotope.min.js"></script>
+    <script src="assets/js/jquery.countdown.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="assets/js/jquery.knob.js"></script>
+    <script src="assets/js/jquery.jplayer.min.js"></script>
+    <script src="assets/js/jquery.smooth-scroll.min.js"></script>
+    <script src="assets/js/jquery.flexslider-min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/jquery.queryloader2.custom.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+    <script src="assets/js/jquery.gomap-1.3.2.min.js" type="text/javascript"></script>
+    <script src="assets/extends/rs-plugin/pluginsources/jquery.themepunch.plugins.min.js"></script>
+    <script src="assets/extends/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    
+    <script src="assets/js/functions.js"></script>
+    
+</body></html>

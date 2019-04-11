@@ -1,0 +1,431 @@
+body .content-wrapper {
+	background: #f9f3ed;
+}
+
+a:hover, a:focus {
+	color: #e14f43;
+}
+a.h1:hover, a.h2:hover, a.h3:hover, a.h4:hover, a.h5:hover, a.h6:hover {
+	color: #e14f43;
+}
+abbr {
+	color: #e14f43;
+}
+mark {
+	background-color: #e14f43;
+}
+mark.light {
+	background-color: #e14f43;
+}
+abbr[title], abbr[data-original-title] {
+	border-bottom: 1px dotted #e14f43;
+}
+
+/* -------------------------------------------------------------------------------- /
+	[1.1]	COMMON LIST STYLE - UL common classes
+/ -------------------------------------------------------------------------------- */
+ul.toggle > li > a:hover {
+	color: #e14f43;
+}
+ul.list-fqa > li > a:hover:before {
+	color: #e14f43;
+}
+
+/* -------------------------------------------------------------------------------- /
+	[2]	COMMON CLASS
+/ -------------------------------------------------------------------------------- */
+.text-primary {
+	color: #e14f43;
+}
+.title-primary:after {
+	background-color: #e14f43;
+}
+
+.avatar-circle {
+	border: 10px solid #e14f43;
+}
+
+.by-author a:hover {
+	color: #e14f43;
+}
+
+.badge-circle {
+	background-color: #e14f43;
+}
+.border-top {
+	border-top: 2px solid #e14f43;
+}
+.border-top {
+	border-top-color: #e14f43;
+}
+
+.overlay-inner .glyphicon, .overlay-hover .glyphicon {
+	background-color: #e14f43;
+}
+
+.thumbnail:hover .overlay-hover {
+	border-color: #e14f43;
+}
+.thumbnail:hover .border-inner {
+	border-color: #e14f43;
+}
+.thumbnail .caption:before {
+	background-color: #e14f43;
+}
+
+/* -------------------------------------------------------------------------------- /
+	[3]	RESET BOOTSTRAP CLASS
+/ -------------------------------------------------------------------------------- */
+.btn-default {
+	background-color: #e14f43;
+	border-color: #e14f43;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-color: #e14f43;
+	border-color: #e14f43;
+}
+.btn-up {
+	background-color: #e14f43;
+}
+.input-group .btn.input-addon:hover {
+	background-color: #e14f43;
+}
+.input-group .form-control:focus + .btn.input-addon:hover {
+	border-color: #e14f43;
+}
+.form-control:focus {
+	border: 1px solid #e14f43;
+}
+
+/* -------------------------------------------------------------------------------- /
+	[4]	SHORTCODES
+/ -------------------------------------------------------------------------------- */
+/* dropcap */
+.dropcap {
+	color: #e14f43;
+}
+/* progress bar */
+.progress .progress-bar {
+	background-color: #e14f43;
+	color: #e14f43;
+}
+.progress-overall .progress-rotate {
+	background-color: #e14f43;
+}
+.progress-overall .progress-overall-content {
+	background-color: #f6f5f2;
+}
+
+/* tabs */
+.tabs-wrapper .nav-tabs > li.active > a, 
+.tabs-wrapper .nav-tabs > li.active > a:hover, 
+.tabs-wrapper .nav-tabs > li.active > a:focus {
+	background-color: #e14f43;
+}
+.tabs-wrapper .nav-tabs > li > a:hover {
+	color: #e14f43;
+}
+.tab-content [data-toggle="collapse"] {
+	background-color: #e14f43;
+}
+
+/* -------------------------------------------------------------------------------- /
+	[5.7] PRICING TABLE - STYLES	
+/ -------------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------------- /
+	PRICING TABLE - STYLE 1
+/ -------------------------------------------------------------------------------- */
+
+	/* column hover / selected state */
+	.gw-go-col-wrap:hover .gw-go-col.gw-go-style1,
+	.gw-go .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style1 { background:#FFF; }
+	
+	/***** header *****/
+	.gw-go-col.gw-go-style1 .gw-go-header-top,
+	.gw-go:hover .gw-go-col.gw-go-style1 .gw-go-header-top,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style1 .gw-go-header-top { 
+		background:#e14f43;
+	}
+	.gw-go-col-wrap:hover .gw-go-col.gw-go-style1 .gw-go-header-top,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current:hover .gw-go-col.gw-go-style1 .gw-go-header-top,
+	.gw-go .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style1 .gw-go-header-top { background:#fff;}
+	
+	/* column default state */
+	.gw-go-col.gw-go-style1 .gw-go-header h3,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style1 .gw-go-header h3 { color:#fff; }
+	/* column hover / selected state */
+	.gw-go-col-wrap:hover .gw-go-col.gw-go-style1 .gw-go-body li,
+	.gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style1 .gw-go-body li,
+	.gw-go-col-wrap:hover .gw-go-col.gw-go-style1 .gw-go-header h3,
+	.gw-go .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style1 .gw-go-header h3,	
+	.gw-go:hover .gw-go-col-wrap.gw-go-current:hover .gw-go-col.gw-go-style1 .gw-go-header h3 { color:#e14f43; }
+	.gw-go-col.gw-go-style1 .gw-go-coinf, 
+	.gw-go-col.gw-go-style1 .gw-go-coinb { background: #fff;}
+
+	.gw-go-col.gw-go-style1 .gw-go-coinf div, 
+	.gw-go-col.gw-go-style1 .gw-go-coinb div { color:#e14f43; }
+	.gw-go-col.gw-go-style1 .gw-go-coinf small, 
+	.gw-go-col.gw-go-style1 .gw-go-coinb small { color:#585858; }	
+	
+	/***** details *****/
+	/* column default state */
+	.gw-go-col.gw-go-style1 .gw-go-body,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style1 .gw-go-body { border-bottom-color:#FFF; }
+	/* column hover / selected state */
+	.gw-go-col-wrap:hover .gw-go-col.gw-go-style1 .gw-go-body,
+	.gw-go .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style1 .gw-go-body,	
+	.gw-go:hover .gw-go-col-wrap.gw-go-current:hover .gw-go-col.gw-go-style1 .gw-go-body { border-bottom-color:#8d6f3e; }	
+	/* column default state */
+	.gw-go-col.gw-go-style1 .gw-go-body li,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style1 .gw-go-body li { 
+		border-top-color:#FFF;
+		color:#333;
+	}
+	.gw-go .gw-go-col-wrap:hover .gw-go-col.gw-go-style1 .gw-go-body li,
+	.gw-go:hover .gw-go-col-wrap:hover .gw-go-col.gw-go-style1 .gw-go-body li {
+		color: #e14f43;
+	}
+	
+	/***** footer *****/
+	
+/* -------------------------------------------------------------------------------- /
+	PRICING TABLE - STYLE 2
+/ -------------------------------------------------------------------------------- */
+
+	/* column default state */
+	.gw-go-col.gw-go-style2,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 { background:#FFF; }
+
+	/* column hover / selected state */
+	.gw-go-col-wrap:hover .gw-go-col.gw-go-style2,
+	.gw-go .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2,	
+	.gw-go:hover .gw-go-col-wrap.gw-go-current:hover .gw-go-col.gw-go-style2 { 
+		background:#e14f43; 
+	}
+	
+	/***** header *****/
+	/* column default state */
+	.gw-go-col.gw-go-style2 .gw-go-header-top,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-header-top { 
+		background:#FFF;
+ }	
+	/* column default state */
+	.gw-go-col.gw-go-style2 .gw-go-header-bottom,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-header-bottom { 
+		background:#FFF;
+	}	
+	/* column default state */
+	.gw-go-col.gw-go-style2 .gw-go-header h3,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-header h3 { color:#e14f43; }
+	/* column hover / selected state */
+	.gw-go-col-wrap:hover .gw-go-col.gw-go-style2 .gw-go-header h3,
+	.gw-go .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-header h3,	
+	.gw-go:hover .gw-go-col-wrap.gw-go-current:hover .gw-go-col.gw-go-style2 .gw-go-header h3 { color:#FFF; }
+
+	/* column default state */
+	.gw-go-col.gw-go-style2 .gw-go-coinf,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-coinf,
+	.gw-go-col.gw-go-style2 .gw-go-coinb,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-coinb	{ 
+		border:solid 10px #e14f43;
+		background:#e14f43;
+	}
+	.gw-go-col.gw-go-style2 .gw-go-coinf div,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-coinf div,
+	.gw-go-col.gw-go-style2 .gw-go-coinb div,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-coinb div { 
+		background:transparent;
+		color: #fff;
+	}
+	/* column hover / selected state */
+	.gw-go-col-wrap:hover .gw-go-col.gw-go-style2 .gw-go-coinf,
+	.gw-go .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-coinf,	
+	.gw-go:hover .gw-go-col-wrap.gw-go-current:hover .gw-go-col.gw-go-style2 .gw-go-coinf,	
+	.gw-go-col-wrap:hover .gw-go-col.gw-go-style2 .gw-go-coinb,
+	.gw-go .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-coinb,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current:hover .gw-go-col.gw-go-style2 .gw-go-coinb { 
+		background: #fff;
+	}	
+	.gw-go-col-wrap:hover .gw-go-col.gw-go-style2 .gw-go-coinf div,
+	.gw-go .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-coinf div,	
+	.gw-go:hover .gw-go-col-wrap.gw-go-current:hover .gw-go-col.gw-go-style2 .gw-go-coinf div,	
+	.gw-go-col-wrap:hover .gw-go-col.gw-go-style2 .gw-go-coinb div,
+	.gw-go .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-coinb div,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current:hover .gw-go-col.gw-go-style2 .gw-go-coinb div { 
+		background:transparent;
+		color:#e14f43;
+	}
+	.gw-go-col.gw-go-style2 .gw-go-coinb small,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current:hover .gw-go-col.gw-go-style2 .gw-go-coinb small { color:#313131; }
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-coinb small { color:#fff; }
+	
+	/* column default state */
+	.gw-go-col.gw-go-style2 .gw-go-body li,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-body li {
+		background:#ddd4c7;
+		color:#333;
+	}
+	.gw-go-col.gw-go-style2 .gw-go-body li.gw-go-even,
+	.gw-go:hover .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-body li.gw-go-even { background:#fff; }	
+	/* column hover / selected state */
+	.gw-go-col-wrap:hover .gw-go-col.gw-go-style2 .gw-go-body li,
+	.gw-go .gw-go-col-wrap.gw-go-current .gw-go-col.gw-go-style2 .gw-go-body li,	
+	.gw-go:hover .gw-go-col-wrap.gw-go-current:hover .gw-go-col.gw-go-style2 .gw-go-body li {
+		background:none;
+		border-top-color:#FFF;
+		color:#FFF;
+	}	
+
+/* -------------------------------------------------------------------------------- /
+	[6]	MENU
+/ -------------------------------------------------------------------------------- */
+.navbar-default {
+	background-color: #e14f43;
+	border-color: #bf3e11;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	background-color: #e14f43;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: #e14f43;
+}
+
+.sf-menu > li > a:before {
+	background-color: #e14f43;
+}
+.sf-menu li {
+	background: #e14f43;
+}
+.sf-menu li:hover, .sf-menu li.sfHover {
+	background: #e14f43;
+}
+.sf-menu ul li {
+	background: #e14f43;
+}
+.sf-menu ul ul li {
+	background: #e14f43;
+}
+
+/* -------------------------------------------------------------------------------- /
+	[7.1]	JPLAYER
+/ -------------------------------------------------------------------------------- */
+a.jp-play {
+	background: #e14f43 url("../images/icons/player_red.png") 6px 8px no-repeat;
+}
+a.jp-play:hover {
+	background: #e14f43 url("../images/icons/player_red.png") -27px 8px no-repeat;
+}
+a.jp-pause {
+	background: #e14f43 url("../images/icons/player_red.png") 6px -22px no-repeat;
+}
+a.jp-pause:hover {
+	background: #e14f43 url("../images/icons/player_red.png") -27px -22px no-repeat;
+}
+a.jp-play, a.jp-pause {
+	background-color: #e14f43;
+}
+div.jp-play-bar {
+	background: #e14f43;
+}
+div.jp-volume-bar-value {
+	background: #e14f43;
+}
+
+/* -------------------------------------------------------------------------------- /
+	[9.1]	FLEXSLIDER
+/ -------------------------------------------------------------------------------- */
+.flex-direction-nav a {
+	background-color: #e14f43;
+}
+.flex-direction-nav .flex-prev {
+	background: #e14f43 url('../images/icons/image_slider_prev.png') no-repeat center center;
+}
+.flex-direction-nav .flex-next {
+	background: #e14f43 url('../images/icons/image_slider_next.png') no-repeat center center;
+}
+
+.single-wrap .media-wrap:not(.no-frame):after {
+	background-color: #e14f43;
+}
+.single-wrap:hover .overlay-hover {
+	border-color: #e14f43;
+}
+
+/* -------------------------------------------------------------------------------- /
+	[10]	SLIDER REVOLUTION
+/ -------------------------------------------------------------------------------- */
+.tparrows {
+	background-color: #e14f43;
+}
+.tp-rightarrow.default {
+	background: #e14f43 url('../images/icons/slider_next.png') no-repeat 0 0;
+}
+.tp-leftarrow.default {
+	background: #e14f43 url('../images/icons/slider_prev.png') no-repeat 0 0;
+}
+.tparrows:hover {
+	background-color: #ffffff;
+}
+
+.tp-caption.slider-title-quote {
+	border-left: 5px solid #e14f43;
+	color: #e14f43;
+}
+.tp-caption.slider-title-you-long {
+	border-left: 5px solid #e14f43;
+	color: #e14f43;
+}
+.tp-caption.slider-title-simple {
+	color: #e14f43;
+}
+.tp-caption.slider-title-quote-short {
+	border-left: 5px solid #e14f43;
+	color: #e14f43;
+}
+
+/* -------------------------------------------------------------------------------- /
+	[12]	CONTENT
+/ -------------------------------------------------------------------------------- */
+.ourmission {
+	background-color: #e14f43;
+}
+
+.calendar_wrap thead th:last-child {
+	color: #e14f43;
+}
+.calendar_wrap tbody a {
+	background: #e14f43;
+}
+.social-icon:hover {
+	background-color: #e14f43;
+	border-color: #e14f43;
+}
+
+/*twitter*/
+.twitter-wrap a:not(.btn), .twitter-wrap a:not(.btn):visited {
+	color: #e14f43;
+}
+
+/* -------------------------------------------------------------------------------- /
+	[13]	SPECIAL CONTENT - Some special content for only html version
+/ -------------------------------------------------------------------------------- */	
+#header .logo-wrap img {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url('../../content/home/logo.png') no-repeat;
+	width: 94px;
+	height: 67px;
+	padding-left: 94px;
+}
+.slider-avatar img {	
+	content: url('../../content/slides/1/man.png');
+}
+.ad_widget {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url('../../content/ad_widget/woman.png') no-repeat;
+	width: 192px;
+	height: 235px;
+	padding-left: 192px;
+}

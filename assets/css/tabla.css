@@ -1,0 +1,34 @@
+<style type="text/css">
+    table {
+       border:1px solid white;
+       border-collapse:separate; 
+       border-spacing:5px; 
+       width:700px; 
+       height:auto; 
+       color:white; 
+       text-align:center; 
+       } 
+
+    th, td {
+       border:1px solid white;
+       padding:5px; 
+       } 
+
+    thead, tfoot {
+       background-color:#06DEF8; 
+       color:white; 
+       font-family:"Arial Black", sans-serif;
+       } 
+
+    tr.color {
+       background-color:#525151; 
+       } 
+
+    caption {
+       color:white; 
+       font-size:30px; 
+       padding:5px; 
+       font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+       } 
+
+ </style>
